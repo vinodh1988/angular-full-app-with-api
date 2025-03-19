@@ -1,27 +1,24 @@
-# FullAngularAppWithApiCall
+Routing
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+     http://localhost:4200/
+	 http://localhost:4200/studio-------> /studio is resolved in server and if you 
+	                               get new pages it is called server side routing
+								   and the application becomes multipage
+								   
+								   /studio is resolved in browser itself without
+								   loading new page but generating new content alone
+								   client side routing
+								   
+				Client Side routing with angular
+Top level or root level routes
+----------------------------------
 
-## Development server
+http://localhost:4200/about
+http://localhost:4200/projects
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+here about and projects are top level routes
 
-## Code scaffolding
+http://localhost:4200/projects/ai
+http://localhost:4200/projects/budget
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   here ai and budget are child routes of main route projects
