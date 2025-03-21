@@ -1,37 +1,37 @@
 {
-    "services": [
+  "services": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Branding and Communication",
       "description": "We help brands connect and engage by finding a unique voice in the market. From strategy and positioning to logo and graphic design to advertising campaigns, we produce identity and communications materials that build credibility, as well as sales.",
       "image": "branding.jpg"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Inbound & Content Marketing",
       "description": "We have a team of inbound-certified content experts, writers and designers who know your market and can develop an inbound marketing strategy that will help you attract visitors to your website, convert them into leads and then into customers.",
       "image": "inbound.jpg"
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "Film &  Webinar",
       "description": "Our talent pool includes musicians, song writers and video technicians who can create unique soundtracks for your corporate films or put together a YouTube video that showcases your products or company. We also help you create, host and promote webinars and podcasts or live streaming programs.",
       "image": "films.jpg"
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "Digital Marketing",
       "description": "WE can help tie your online and offline branding together with digital and social media services, pay per click (PPC), SEO/SEM or Google Adwords.  At UP we work with all social media networks, and can help you with both your paid activities and organic presence. ",
       "image": "digital.jpg"
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "ECommerce & Websites",
       "description": "We provide full website design and development services, including UX design and ecommerce. Our team can set up CMS systems, including HubSpot, WordPress, Drupal and more.  ",
       "image": "ecommerce.jpg"
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Market Analysis",
       "description": "UP starts all major marketing, branding, advertising and creative service projects with a thorough briefing process and market research. This phase might include customer research or a START ME UP workshop.  UP LAB also offers in-depth analysis and market insights to help you understand your customers. ",
       "image": "market.jpg"
@@ -39,7 +39,7 @@
   ],
   "details": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Creating powerful brands and recognizable identities",
       "description": [
         "We help brands connect and engage by finding a unique place and voice in the market. From brand strategy and positioning, to visual and verbal identity, as well as logo and graphic design, we offer expertise in all brand and identity related areas.",
@@ -47,7 +47,7 @@
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Quality content and inbound services to drive profitable business",
       "description": [
         "Regardless of your company size or which industry you work in, you need to engage with your prospects and customers with content that is useful and relevant to them. Content that will attract visitors via search, content you can use in your own channels, and content that will play a part in your paid media efforts.",
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "id": 3,
+      "id": "3",
       "title": "A picture speaks a thousand words",
       "description": [
         "... and video and sound can say even more. Film is a powerful way to engage your audience and deliver complex messages. UP has extensive experience in audio-visual creation — we make films all over the world every week. ",
@@ -64,7 +64,7 @@
       ]
     },
     {
-      "id": 4,
+      "id": "4",
       "title": "ABC Limited delivers digital marketing services that get results",
       "description": [
         "ABC Limited will help you define your digital marketing strategy: it is the science of blending social media, Google, PPC, SEO, your website (and content) into one coherent plan. ",
@@ -75,7 +75,7 @@
       ]
     },
     {
-      "id": 5,
+      "id": "5",
       "title": "Connecting your offline and online worlds",
       "description": [
         "Think of your ‘digital strategy’ as your ‘sales strategy’. The days of digital playing second fiddle to your offline activities are long gone.",
@@ -85,7 +85,7 @@
       ]
     },
     {
-      "id": 6,
+      "id": "6",
       "title": "Understanding is key",
       "description": [
         "UP starts all major marketing, branding, advertising, digital and creative service projects with a deep understanding of your customers, competitors and marketplace.  This covers both quantitative and qualitative research and can range from desk and digital research to online surveys, telephone interviews and focus groups.",
@@ -93,35 +93,46 @@
         "As part of our Audit Phase (using our BASE-UP program) we will often run an internal Start Me UP workshop session. UP has many years of experience running these sessions on every continent for clients ranging from small start ups to the likes of Microsoft and GE. Better understanding and insight is the beginning of any good creative or marketing plan."
       ]
     }
-   ],
- 
-   "contacts": [
-        {
-            "name": "Chennai Development Center",
-            "address": "123 Chennai Street",
-            "city": "Chennai",
-            "pin": "600001",
-            "mobile": "1234567890",
-            "email": "chennaidc@abcpro.com",
-            "image": "chennai.jpg"
-        },
-        {
-            "name": "Corporate Headquarters",
-            "address": "456 Mumbai Avenue",
-            "city": "Mumbai",
-            "pin": "400001",
-            "mobile": "0987654321",
-            "email": "main@abcpro.com",
-            "image": "mumbai.jpg"
-        },
-        {
-            "name": "Hyderbad Develpment Center",
-            "address": "789 Mumbai Road",
-            "city": "Hyderabad",
-            "pin": "500002",
-            "mobile": "1122334455",
-            "email": "hdc@eabcpro.com",
-            "image": "hyderabad.jpg"
-        }
-    ]
+  ],
+  "contacts": [
+    {
+      "name": "Chennai Development Center",
+      "address": "123 Chennai Street",
+      "city": "Chennai",
+      "pin": "600001",
+      "mobile": "1234567890",
+      "email": "chennaidc@abcpro.com",
+      "image": "chennai.jpg",
+      "id": "0df3"
+    },
+    {
+      "name": "Corporate Headquarters",
+      "address": "456 Mumbai Avenue",
+      "city": "Mumbai",
+      "pin": "400001",
+      "mobile": "0987654321",
+      "email": "main@abcpro.com",
+      "image": "mumbai.jpg",
+      "id": "1b72"
+    },
+    {
+      "name": "Hyderbad Develpment Center",
+      "address": "789 Mumbai Road",
+      "city": "Hyderabad",
+      "pin": "500002",
+      "mobile": "1122334455",
+      "email": "hdc@eabcpro.com",
+      "image": "hyderabad.jpg",
+      "id": "5bb8"
+    }
+  ],
+  "enquiries": [
+    {
+      "id": "7569",
+      "name": "Kiran",
+      "email": "kiran@gmail.com",
+      "serviceType": "Branding and Communication",
+      "message": "We need a branding Campaign to be run by you. Let us know the cost"
+    }
+  ]
 }

@@ -95,3 +95,20 @@ What is Observable?
         error: (error)=>console.log(error)
      }
    )
+
+   ## Form Handling 
+
+   To handle forms in Angular
+
+   There are two approaches
+
+   * Template based approach
+   * Model based approach
+
+#### Template based approach
+  
+  In this approach, we follow a straight forward way to handle forms
+  There is no inbuild validation support
+  We have to handle it ourselves
+  We use FormsModule for this
+  and the directive ngModel is used to handle form fields
