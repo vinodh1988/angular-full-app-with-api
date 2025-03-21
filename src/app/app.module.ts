@@ -10,6 +10,8 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactItemComponent } from './pages/contact/contact-item/contact-item.component';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import { ServiceItemComponent } from './pages/home/service-item/service-item.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { ContactItemComponent } from './pages/contact/contact-item/contact-item.
     AboutComponent,
     ContactComponent,
     ProjectsComponent,
-    ContactItemComponent
+    ContactItemComponent,
+    ServiceItemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxExtendedPdfViewerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

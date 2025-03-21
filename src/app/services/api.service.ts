@@ -12,5 +12,9 @@ export class ApiService {
   getContacts():Observable<any>{
     return this.http.get('http://localhost:4500/contacts');
   }
+  
+  getServices():Observable<any>{
+    return this.http.get('http://localhost:4500/services');
+  }
 
 }
