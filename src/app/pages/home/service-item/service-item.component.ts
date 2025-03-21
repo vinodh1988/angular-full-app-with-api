@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { service } from '../../../model/service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-service-item',
@@ -13,4 +14,10 @@ export class ServiceItemComponent {
     description: '',
     image: ''
   };
+
+  constructor(private router:Router){}
+
+  onServiceClick(id:string) {
+    this.router.navigate(['/services', id], { state: { title: this.service.title } });
+  }
 }
