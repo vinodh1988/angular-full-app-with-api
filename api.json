@@ -133,8 +133,7 @@
       "email": "kiran@gmail.com",
       "serviceType": "Branding and Communication",
       "message": "We need a branding Campaign to be run by you. Let us know the cost"
-    }
-    ,
+    },
     {
       "id": "7570",
       "name": "John",
@@ -344,6 +343,16 @@
       "email": "brian@example.com",
       "serviceType": "Branding and Communication",
       "message": "Looking for branding consultation."
+    }
+  ],
+  "enquiryresponses": [
+    {
+      "id": "20d5",
+      "subject": "Branding Service Enquiry",
+      "message": "Pleased to inform we are ready to take up with requirement",
+      "estimatedPrice": 18980,
+      "duration": "100",
+      "messageId": "6"
     }
   ]
 }

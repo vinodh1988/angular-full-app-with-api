@@ -112,3 +112,17 @@ What is Observable?
   We have to handle it ourselves
   We use FormsModule for this
   and the directive ngModel is used to handle form fields
+
+
+### Model Based Approach
+
+ In Model based approach
+
+ We use a a module called ReactFormsModule
+ To handle bigger Forms with proper Structure and model
+ If you have things like nested form, dynamice form etc we can use
+ this approach
+ This approach supports Inbuilt validation
+ We use Formbuilder to build the modal based forms
+
+ 

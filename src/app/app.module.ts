@@ -13,9 +13,10 @@ import { ContactItemComponent } from './pages/contact/contact-item/contact-item.
 import { ServiceItemComponent } from './pages/home/service-item/service-item.component';
 import { ServiceDetailsComponent } from './pages/home/service-details/service-details.component';
 import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { EnquiriesComponent } from './pages/enquiries/enquiries.component';
 import { LoginComponent } from './common/login/login.component';
+import { EnquiryResponseComponent } from './pages/enquiries/enquiry-response/enquiry-response.component';
 
 @NgModule({
   declarations: [
@@ -30,13 +31,16 @@ import { LoginComponent } from './common/login/login.component';
     ServiceDetailsComponent,
     EnquiryFormComponent,
     EnquiriesComponent,
-    LoginComponent
+    LoginComponent,
+    EnquiryResponseComponent,
+ 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
