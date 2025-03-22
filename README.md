@@ -125,4 +125,63 @@ What is Observable?
  This approach supports Inbuilt validation
  We use Formbuilder to build the modal based forms
 
- 
+ Pipes
+ --------
+
+ Pipes are feature generally used for two purposes
+
+ 1. Formatting the Information
+    Ex: Showing number in currency format
+        Showing string in a required format
+        Showing date according to the location
+        Showing text according to the local language
+ 2. For Filtering 
+    Ex: Based on a condition you can filter an array
+    and show only the elements passing the condition
+
+    Pipes can be applied on scalar as well as array
+    variables
+
+    if applied scalar (string,number,boolean,date) generally
+    it formats the information
+
+    if applied on  arrays generally filters the information
+
+    Ex:
+    {{ price | currency: 'EUR' }}
+
+    The price will be displayed with euro symbol
+
+    {{ name | uppercase}}
+
+    the name will be shown in upper case
+
+    So there are few inbuilt pipes in Angular
+    to apply on scalar variables like uppercase, lowercase, percent,
+    currency,date
+
+    There are no inbuilt pipes to apply on arrays
+
+    but both scalar types and array types you can
+    have your own pipes
+
+    Generally a pipe has following parts
+
+    1. Pipename
+    2. Target
+    3. Parameters(optional , one/more)
+    
+    {{price | currency: 'INR'}}
+
+    INR - parameter
+    currency - pipename
+    Price -target 
+   
+   {{name | uppercase}}
+
+   uppercase - pipename
+   name - target
+
+   no parameters
+
+   

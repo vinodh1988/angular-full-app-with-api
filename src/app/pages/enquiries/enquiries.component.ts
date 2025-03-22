@@ -19,6 +19,8 @@ export class EnquiriesComponent {
     'ECommerce & Websites',
     'Market Analysis'
     ];
+
+    selected:string = 'All'
     constructor(private api:ApiService){
 
     }
