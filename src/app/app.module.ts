@@ -14,6 +14,8 @@ import { ServiceItemComponent } from './pages/home/service-item/service-item.com
 import { ServiceDetailsComponent } from './pages/home/service-details/service-details.component';
 import { EnquiryFormComponent } from './pages/home/enquiry-form/enquiry-form.component';
 import { FormsModule } from '@angular/forms';
+import { EnquiriesComponent } from './pages/enquiries/enquiries.component';
+import { LoginComponent } from './common/login/login.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { FormsModule } from '@angular/forms';
     ContactItemComponent,
     ServiceItemComponent,
     ServiceDetailsComponent,
-    EnquiryFormComponent
+    EnquiryFormComponent,
+    EnquiriesComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
